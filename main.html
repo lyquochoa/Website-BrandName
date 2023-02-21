@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST FRONTEND BASIC 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Noto+Sans&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6git .3.0/css/all.min.css"
+    />
+
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img
+          srcset="
+            ./img/icg-logo-design-template-graphic-branding-element-free-vector.jpg
+          "
+          alt=""
+          class="logo-img"
+        />
+        <ul class="menu">
+          <span>Menu</span>
+          <li class="menu-item menu-item-top">
+            <a href="#" class="menu-link">Home</a>
+          </li>
+          <li class="menu-item"><a href="#" class="menu-link">Product</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Services</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><span></span><span></span><span></span></div>
+      </div>
+
+      <!-- Slider -->
+      <div id="slider">
+        <div class="mySlidess">
+          <img src="./img/smart-slider-3.png" alt="" />
+        </div>
+        <div class="mySlidess">
+          <img src="./img/smartslider34.png" alt="" />
+        </div>
+        <div class="mySlidess">
+          <img src="./img/smart-slider-3.png" alt="" />
+        </div>
+        <div class="mySlidess">
+          <img src="./img/smartslider34.png" alt="" />
+        </div>
+        <div style="text-align: center" class="style-dot">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <!-- Video -->
+      <div id="video">
+        <video width="100%" height="100%" controls>
+          <source src="./video/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <!-- Products -->
+      <div id="products">
+        <div class="products-one">
+          <img src="./img/Group8214.png" alt="" class="products-one-imgs" />
+          <div class="products-one-content">
+            <h3><b>Apps for customers</b></h3>
+            <p>
+              The general idea behind "diversification" is to provide a Service
+              ecosystem that fully caters to all customer needs from the
+              smallest needs
+            </p>
+            <div class="icons">
+              <img src="./img/googleplay.png" alt="" class="icons_google" />
+              <img src="./img/appstore.png" alt="" class="icons_appstore" />
+            </div>
+            <span class="see-more">
+              <u>See more</u>
+              <i class="fas fa-chevron-down"></i>
+            </span>
+          </div>
+        </div>
+        <div class="products-two">
+          <span class="products-two_title"
+            ><b>Outstanding features of the Client App</b></span
+          >
+          <div class="products-two_container">
+            <img src="./img/iPhone-12-Mini.png" alt="" />
+            <div class="products-two_container_content">
+              <div class="products-two_container_content-main">
+                <div class="number-arrow">
+                  <h4 class="number-arrow_h4">1</h4>
+                  <div class="long-body-arrow-down"></div>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="products-two_container_content-more">
+                  <b>Search service in just one button</b>
+                  <p>Enjoy convenience in just one app.</p>
+                </div>
+              </div>
+              <div class="products-two_container_content-main">
+                <div class="number-arrow">
+                  <h4
+                    class="number-arrow_h4"
+                    style="background-color: #277cfb; color: #ffffff"
+                  >
+                    2
+                  </h4>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="products-two_container_content-more active-more">
+                  <b style="color: #277cfb">Connecting diverse information</b>
+                  <p>
+                    Not only chat now you can voice chat and make calls to
+                    quickly connect with the performer
+                  </p>
+                </div>
+              </div>
+              <div class="products-two_container_content-main">
+                <div class="number-arrow">
+                  <h4 class="number-arrow_h4">3</h4>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="products-two_container_content-more">
+                  <b>Update status service</b>
+                  <p>
+                    You can know the status of repair or work completed while
+                    away from home.
+                  </p>
+                </div>
+              </div>
+              <div class="products-two_container_content-main">
+                <div class="number-arrow">
+                  <h4>4</h4>
+                </div>
+                <div class="products-two_container_content-more">
+                  <b>Complete safe and quality service</b>
+                  <p>
+                    You will feel secure when you see the report image and
+                    easily evaluate quality service whenever
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- App business -->
+      <div class="app-business">
+        <div class="app-business-content">
+          <h3><b>Apps for Business</b></h3>
+          <p>
+            One of the advantages of Multi-Industry Services is that it helps
+            reduce the impact of unexpected fluctuations in any one industry.
+            Bringing diverse consumers to businesses
+          </p>
+          <div class="icons">
+            <img src="./img/googleplay.png" alt="" class="icons_google" />
+            <img src="./img/appstore.png" alt="" class="icons_appstore" />
+          </div>
+          <span class="see-more">
+            <u>See more</u>
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </div>
+        <!-- <div class="app-business-imgs"> -->
+        <!-- <span> -->
+        <img src="./img/Group8214.png" alt="" class="app-business-imgs" />
+        <!-- <img
+            src="./img/iPhone-12-Mini.png"
+            alt=""
+            class="app-business-imgs_img"
+          /> -->
+        <!-- </span> -->
+        <!-- </div> -->
+      </div>
+
+      <!-- App managers -->
+      <div class="app-managers">
+        <img
+          src="./img/Apple Macbook Pro 15_ Space Grey.png"
+          alt=""
+          class="app-managers-imgs"
+        />
+        <div class="app-managers-content">
+          <h3><b>Apps for Managers</b></h3>
+          <p>
+            Each branch of service provides is independent of the other business
+            areas, but the activities of the services will be reported to senior
+            management of the company that owns the application.
+          </p>
+          <div class="icons">
+            <img src="./img/googleplay.png" alt="" class="icons_google" />
+            <img src="./img/appstore.png" alt="" class="icons_appstore" />
+          </div>
+          <span class="see-more">
+            <u>See more</u>
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </div>
+      </div>
+
+      <!-- Why choose us -->
+      <div class="why-choose-us">
+        <h3><b>Why choose us</b></h3>
+        <p>
+          Modern consumer trends: Focus on top-selected services. Changing
+          business models to adapt to new consumer trends: Applying the latest
+          technology
+        </p>
+        <div class="content-icon">
+          <div class="content-icon-detail">
+            <img src="./img/professional.png" alt="" />
+            <h4>Professional</h4>
+          </div>
+          <div class="content-icon-detail">
+            <img src="./img/fast.png" alt="" />
+            <h4>Fast</h4>
+          </div>
+          <div class="content-icon-detail">
+            <img src="./img/multi_service.png" alt="" />
+            <h4>Multi service</h4>
+          </div>
+          <div class="content-icon-detail">
+            <img src="./img/safety.png" alt="" />
+            <h4>Safety, quality</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service -->
+      <div class="service">
+        <div class="service-top">
+          <h3><b>Learn more about the service</b></h3>
+          <div class="">
+            <button
+              class="btn btn-primary btn-prev"
+              type="button"
+              onclick="plusSlides(-1)"
+            >
+              <span
+                class="d-inline-block"
+                tabindex="0"
+                data-bs-toggle="popover"
+                data-bs-trigger="hover focus"
+                data-bs-content="Disabled popover"
+              >
+                <img src="./img/Arrow-Left2.png" alt="" />
+              </span>
+            </button>
+            <button
+              class="btn btn-primary btn-next"
+              type="button"
+              onclick="plusSlides(1)"
+            >
+              <span
+                class="d-inline-block"
+                tabindex="0"
+                data-bs-toggle="popover"
+                data-bs-trigger="hover focus"
+                data-bs-content="Disabled popover"
+              >
+                <img src="./img/Arrow-Right2.png" alt="" />
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="service-bottom">
+          <div class="service-bottom_learn">
+            <img src="./img/Cleaning.png" alt="" />
+            <h4><b>Cleaning</b></h4>
+            <p>Hiện đại và uy tính, Tạo không gian sống sạch đẹp</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Cleaning.png" alt="" />
+            <h4><b>Cleaning</b></h4>
+            <p>Hiện đại và uy tính, Tạo không gian sống sạch đẹp</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Cleaning.png" alt="" />
+            <h4><b>Cleaning</b></h4>
+            <p>Hiện đại và uy tính, Tạo không gian sống sạch đẹp</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Cleaning.png" alt="" />
+            <h4><b>Cleaning</b></h4>
+            <p>Hiện đại và uy tính, Tạo không gian sống sạch đẹp</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+        </div>
+        <div class="service-bottom">
+          <div class="service-bottom_learn">
+            <img src="./img/Appliances.png" alt="" />
+            <h4><b>Appliances</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Appliances.png" alt="" />
+            <h4><b>Appliances</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Appliances.png" alt="" />
+            <h4><b>Appliances</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Appliances.png" alt="" />
+            <h4><b>Appliances</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+        </div>
+        <div class="service-bottom">
+          <div class="service-bottom_learn">
+            <img src="./img/Household.png" alt="" />
+            <h4><b>Household</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Household.png" alt="" />
+            <h4><b>Household</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Household.png" alt="" />
+            <h4><b>Household</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Household.png" alt="" />
+            <h4><b>Household</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+        </div>
+        <div class="service-bottom">
+          <div class="service-bottom_learn">
+            <img src="./img/Electronic.png" alt="" />
+            <h4><b>Electronic</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Electronic.png" alt="" />
+            <h4><b>Electronic</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Electronic.png" alt="" />
+            <h4><b>Electronic</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+          <div class="service-bottom_learn">
+            <img src="./img/Electronic.png" alt="" />
+            <h4><b>Electronic</b></h4>
+            <p>Experience ...</p>
+            <button><span>Tìm hiểu thêm</span></button>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 41px">
+          <span class="dotService"></span>
+          <span class="dotService"></span>
+          <span class="dotService"></span>
+          <span class="dotService"></span>
+        </div>
+      </div>
+
+      <!-- Top businesses -->
+      <div class="top-businesses">
+        <h3><b>Top businesses</b></h3>
+        <p>
+          Accompanying the application is indispensable for businesses that play
+          a great role and contribute to the ecosystem. The same goal becomes
+          the spearhead in some areas.
+        </p>
+        <div class="imgBusinesses">
+          <img src="./img/Topbusinesses1.png" alt="" />
+          <img src="./img/Topbusinesses2.png" alt="" />
+          <img src="./img/Topbusinesses3.png" alt="" />
+        </div>
+      </div>
+
+      <!-- Business Feedback -->
+      <div class="business-feedback">
+        <h3><b>Business Feedback</b></h3>
+        <p class="business-feedback_description">
+          Sharing from associates experience with iService
+        </p>
+        <div class="business-feedback_content">
+          <div class="business-feedback_user">
+            <div class="business-feedback_user_title">
+              <img src="./img/JohnK.png" alt="" />
+              <div class="business-feedback_user_name">
+                <h4><b>John K.</b></h4>
+                <p>La pasteria</p>
+              </div>
+            </div>
+            <img src="./img/fullStar.png" alt="" class="imgStar" />
+            <p class="business-feedback_user_cmt">
+              The reports and orders for each service are very specific. Is an
+              application worth sustainable cooperation.
+            </p>
+          </div>
+          <div class="business-feedback_user">
+            <div class="business-feedback_user_title">
+              <img src="./img/EstherHoward.png" alt="" />
+              <div class="business-feedback_user_name">
+                <h4><b>Esther Howard</b></h4>
+                <p>La pasteria</p>
+              </div>
+            </div>
+            <img src="./img/fourStar.png" alt="" class="imgStar" />
+            <p class="business-feedback_user_cmt">
+              The reports and orders for each service are very specific. Is an
+              application worth sustainable cooperation.
+            </p>
+          </div>
+          <div class="business-feedback_user">
+            <div class="business-feedback_user_title">
+              <img src="./img/RobertFox.png" alt="" />
+              <div class="business-feedback_user_name">
+                <h4><b>Robert Fox</b></h4>
+                <p>La pasteria</p>
+              </div>
+            </div>
+            <img src="./img/fullStar.png" alt="" class="imgStar" />
+            <p class="business-feedback_user_cmt">
+              The reports and orders for each service are very specific. Is an
+              application worth sustainable cooperation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="contact-us">
+          <div class="contact-title">
+            <h3><b>Contact us</b></h3>
+            <p>
+              Please connect with us for answers and service experience
+              completely and completely.
+            </p>
+          </div>
+          <div class="input-group mb-3 register">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email for consultation"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-addon2"
+            >
+              <span>Đăng ký</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="brandname">
+          <div class="brandname_Top">
+            <div class="brandname_content">
+              <h2>Brandname</h2>
+              <h4>Follow us:</h4>
+              <img src="./img/followUs.png" alt="" />
+            </div>
+            <div class="contactName">
+              <div class="contactName_title">
+                <h4>Home</h4>
+                <ul>
+                  <li>About us</li>
+                  <li>Intro</li>
+                  <li>Features</li>
+                  <li>Pricing</li>
+                </ul>
+              </div>
+              <div class="contactName_title">
+                <h4>Suppor</h4>
+                <ul>
+                  <li>Shipping & Returns</li>
+                  <li>Contact Us</li>
+                  <li>Our Partners</li>
+                </ul>
+              </div>
+              <div class="contactName_title">
+                <h4>Resources</h4>
+                <ul>
+                  <li>Our Work</li>
+                  <li>Servicrs</li>
+                  <li>FAQ</li>
+                </ul>
+              </div>
+              <div class="contactName_title">
+                <h4>Contact us</h4>
+                <ul>
+                  <li>About Us</li>
+                  <li>Menu</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="brandname_Bottom">
+            (c) 2023 - Delicious, All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      showSlides();
+      showSlideService(serviceIndex);
+
+      // Show Slide Service
+      let serviceIndex = 1;
+
+      function plusSlides(n) {
+        showSlideService((serviceIndex += n));
+      }
+
+      function showSlideService(n) {
+        let i;
+        let slides = document.getElementsByClassName("service-bottom");
+        let dots = document.getElementsByClassName("dotService");
+        let btnPrev = document.querySelector(".btn-prev");
+        let btnNext = document.querySelector(".btn-next");
+        if (n === slides.length) {
+          btnNext.setAttribute("disabled", "");
+          btnNext.style.backgroundColor = "#E2E2E2";
+          btnNext.style.borderColor = "#E2E2E2";
+        } else if (n === 1) {
+          btnPrev.setAttribute("disabled", "");
+          btnPrev.style.backgroundColor = "#E2E2E2";
+          btnPrev.style.borderColor = "#E2E2E2";
+        } else {
+          btnNext.removeAttribute("disabled", "");
+          btnNext.style.backgroundColor = "#277cfb";
+          btnNext.style.borderColor = "#277cfb";
+          btnPrev.removeAttribute("disabled");
+          btnPrev.style.backgroundColor = "#277cfb";
+          btnPrev.style.borderColor = "#277cfb";
+        }
+        if (n < 1) {
+          serviceIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" activeService", "");
+        }
+
+        slides[serviceIndex - 1].style.display = "flex";
+        dots[serviceIndex - 1].className += " activeService";
+      }
+
+      // Handle click menu in Mobile App
+      const toggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
+      const activeCLass = "is-show";
+      toggle.addEventListener("click", function () {
+        menu.classList.add(activeCLass);
+      });
+      menu.addEventListener("click", function (event) {
+        if (event.isTrusted) {
+          menu.classList.remove(activeCLass);
+        }
+      });
+    </script>
+  </body>
+</html>
